@@ -7,7 +7,7 @@ def insertar_cliente(nombre, cedula, direccion, correo):
         'password': '123456789'
     }
 
-    # Conexión a la base de datos 
+     
     with mysql.connector.connect(**connection_info) as connection:
         
         cursor = connection.cursor()
